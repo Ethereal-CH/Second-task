@@ -367,11 +367,12 @@ header{
 .navbar ul{
   text-align: center;
 }
+
 .navbar ul li{
   padding-left: px;
   padding-top: 1px;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 13px;
   text-align: center;
 }
 
