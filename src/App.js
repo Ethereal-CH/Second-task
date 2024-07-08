@@ -9,7 +9,7 @@ import watch from './images/Rectangle 180.png';
 import silver from './images/Rectangle 200.png';
 import gold from './images/Rectangle 210.png';
 import grey from './images/Rectangle 220.png';
-import diamond from './images/Rectangle 230.png';
+import diamond from './images/Rectangle 2000.png';
 import love from './images/love.jpg';
 import shop from './images/Rectangle 270.png';
 import facebook from './images/facebook.png';
