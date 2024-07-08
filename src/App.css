@@ -364,11 +364,15 @@ header{
   padding-top: 30px;
 }
 
+.navbar ul{
+  text-align: center;
+}
 .navbar ul li{
-  padding-left: 19px;
+  padding-left: px;
   padding-top: 1px;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 10px;
+  text-align: center;
 }
 
 .navbar img{
