@@ -1,0 +1,453 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color:black;
+}
+
+body{
+  width:100%;
+  height: auto;
+  line-height: 1.4;
+  text-decoration: none;
+  color:black;
+  background-color: white;
+}
+
+header{
+  background-color: rgba(255, 235, 216, 1);
+  background-size: cover;
+}
+
+.navbar{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.navbar ul{
+  text-align: center;
+  display:inline-flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.navbar ul li{
+  padding-left: 60px;
+  padding-top: 1px;
+  font-weight: bold;
+}
+
+.navbar img{
+  height: 25px;
+  padding-left: 20px;
+}
+
+.navbar img .search{
+ background-color: rgba(255, 235, 216, 1);
+}
+
+.navbar button{
+  margin-left: 20px;
+  background-color: rgba(245, 110, 15, 1);
+  border: none;
+  border-radius: 7px;
+}
+
+.navbar button a{
+  padding: 10px;
+}
+
+.navbar button a:hover{
+  color: black;
+  background-color: white;
+  padding: none;
+  border-radius: 10px;
+}
+
+.navbar button:hover{
+  padding: none;
+  color: black;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px solid rgba(245, 110, 15, 1);
+}
+
+
+.sectionn{
+  display: flex;
+  flex-wrap: wrap;
+  text-align:justify;
+  justify-content:space-around;
+  margin-top: 50px;
+}
+
+.sectionn .heading h1{
+  font-size: 40px;
+  margin-top: 70px;
+}
+
+.sectionn .heading h2{
+  font-size: 13px;
+  margin-top: 60px;
+}
+
+.sectionn .heading button{
+  background-color: rgba(245, 110, 15, 1);
+  margin-top: 23px;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.sectionn .heading button a{
+  padding: 7px;
+}
+
+.sectionn .heading button a:hover{
+  color: black;
+  background-color: white;
+  padding: none;
+}
+
+.sectionn .heading button:hover{
+  padding: none;
+  color: black;
+  background-color: white;
+  border: 1px solid rgba(245, 110, 15, 1);
+}
+
+.sectionn .heading img{
+  background-color: transparent;
+}
+
+.sectios{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.sectios .first-section img{
+  background-color: rgb(231, 229, 229);
+  padding-top: 30px;
+  text-align: center;
+  padding: 30px;
+  margin: 10px;
+  justify-content: center;
+  width:300px;
+}
+
+.phase{
+  padding-right: 43px;
+}
+
+.design{
+  padding-left:46px;
+}
+
+.sectios .first-section .design ul{
+  list-style-type: none;
+  margin-top: 70px;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: justify;
+}
+
+.sectios .first-section .design ul li{
+  margin-top: 30px;
+}
+
+.sectios .first-section button{
+  margin-top: 200px;
+  margin-right: 8px;
+  background-color: rgba(245, 110, 15, 1);
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.sectios button a{
+  padding: 7px;
+}
+
+.sectios button a:hover{
+  color: black;
+  background-color: white;
+  padding: none;
+}
+
+.sectios button:hover{
+  padding: none;
+  color: black;
+  background-color: white;
+  border: 1px solid rgba(245, 110, 15, 1);
+}
+
+.Section{
+  width: 100%;
+}
+
+.Second-section{
+  display:flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Section h1{
+  margin-top: 30px;
+  margin-left: 350px;
+}
+
+.Second-section .products{
+  background-color: white;
+  width: 250px;
+  border: 0px, 0px, 1px, 0px;
+}
+
+.Section .products img{
+  width: 350px;
+}
+
+.hang{
+  height: 319px;
+  width: 10px;
+}
+
+.Section .products .images{
+  width: 20px;
+  margin-left: 40px;
+}
+
+.products h2{
+  font-size: 17px;
+  text-align: justify;
+  font-family: Cabin Condensed;
+}
+
+.products h3{
+  text-align: justify;
+  font-size: 15px;
+}
+
+.sections{
+  margin-top: 90px;
+  text-align: center;
+}
+
+.last{
+  display:flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.last img{
+  height: 600px;
+}
+
+.last-sections h1{
+  margin-top: 50px;
+  font-family: Cabin Condensed;
+}
+
+.last-sections{
+  background-color: rgba(160, 233, 255, 1);
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding: 50px;
+  text-align: justify;
+  border-radius: 3px;
+}
+
+.last-sections button{
+  margin-top: 20px;
+  margin-right: 8px;
+  background-color: rgba(245, 110, 15, 1);
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.last-sections button a{
+  padding: 7px;
+}
+
+.last-sections button a:hover{
+  color: black;
+  background-color: white;
+  padding: none;
+}
+
+.last-sections button:hover{
+  padding: none;
+  color: black;
+  background-color: white;
+  border: 1px solid rgba(245, 110, 15, 1);
+}
+
+.footers{
+  margin-top: 100px;
+  background-color: rgba(255, 235, 216, 1);
+}
+
+.foot{
+  display:flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content:space-around;
+  margin-top: 50px;
+}
+
+.footer{
+  margin-top: 70px;
+  text-align: justify;
+  margin-bottom: 150px;
+}
+
+.footer h2{
+  font-family: Cabin Condensed;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer h3{
+  font-size: 13px;
+  font-weight: lighter;
+  font-family: Arial;
+  margin-bottom: 10px;
+}
+
+.footer img{
+  width: 30px;
+}
+
+.footer .butt{
+  margin-top: 20px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid rgba(245, 110, 15, 1);
+}
+.footer .butt a{
+  font-family: Cabin Condensed;
+  color: rgba(245, 110, 15, 1);
+  border-top: none;
+}
+
+.footer .bch{
+  background-color:transparent; 
+  border: 2px solid rgba(245, 110, 15, 1);
+  border-radius: 3px;
+  padding: 15px;
+}
+
+.footer .bch a{
+  padding: 25px;
+  color:rgba(245, 110, 15, 1);
+}
+
+.footer .bch:hover{
+  padding: none;
+  color: black;
+  background-color: white;
+  border: 1px solid rgba(245, 110, 15, 1);
+}
+
+@media(max-width: 736px){
+  body{
+    width: 100%;
+ }
+ .sectionn .heading img{
+  width: 270px;
+ }
+
+ .last{
+  text-align: center;
+  justify-content: center;
+  margin-left: 0px;
+  margin-right: 0px;
+ }
+
+ .last img{
+  width: 330px;
+  height: 450px;
+  margin-top: -150px;
+ }
+
+ .sectios{
+  margin-top: 30px;
+ }
+
+ .sectios .first-section img{
+  width: 200px;
+ }
+
+ .design{
+  text-align: center;
+  padding-left: 0px;
+  padding-bottom: 50px;
+ }
+
+ .phase{
+  padding-right: 0px;
+  text-align: center;
+ }
+
+ .sectios .first-section button{
+  margin-top: 30px;
+ }
+
+ .Section h1{
+  margin-top: 50px;
+ }
+
+ .last-sections{
+  margin-top: 0px;
+  width: 180px;
+ }
+
+ .last-sections h1{
+  text-align: justify;
+ }
+
+ .footers{
+  margin-top: 70px;
+ }
+
+ .footer{
+  margin-bottom: 10px;
+ }
+
+ .footer h3{
+  font-size: 10px;
+  font-weight: bold;
+ }
+
+ .footer h2{
+  font-size: 15px;
+  font-weight: bolder;
+ }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
