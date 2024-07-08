@@ -136,23 +136,16 @@ header{
   padding: 30px;
   margin: 10px;
   justify-content: center;
-  width:300px;
-}
-
-.phase{
-  padding-right: 43px;
-}
-
-.design{
-  padding-left: 46px;
+  width: 200px;
 }
 
 .sectios .first-section .design ul{
   list-style-type: none;
-  margin-top: 70px;
+  padding-top: 70px;
   font-weight: bold;
   font-size: 13px;
   text-align: justify;
+  padding-bottom: 40px;
 }
 
 .sectios .first-section .design ul li{
@@ -214,7 +207,7 @@ header{
 }
 
 .hang{
-  height: 319px;
+  height: 219px;
   width: 10px;
 }
 
@@ -366,7 +359,7 @@ header{
     width: 100%;
  }
  .sectionn .heading img{
-  width: 270px;
+  width: 230px;
  }
 
  .last{
@@ -388,17 +381,6 @@ header{
 
  .sectios .first-section img{
   width: 200px;
- }
-
- .design{
-  text-align: center;
-  padding-left: 0px;
-  padding-bottom: 50px;
- }
-
- .phase{
-  padding-right: 0px;
-  text-align: center;
  }
 
  .sectios .first-section button{
