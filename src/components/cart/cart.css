@@ -1,0 +1,265 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color:black;
+}
+
+body{
+  width:100%;
+  height: auto;
+  line-height: 1.4;
+  text-decoration: none;
+  color:black;
+  background-color: white;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Cabin Condensed;
+}
+
+.section{
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.section h1{
+    font-size: 15px;
+    padding-top: 70px;
+}
+
+.section .shop{
+  margin-top: 20px;
+  margin-right: 8px;
+  background-color: rgba(245, 110, 15, 1);
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section button a{
+  padding: 7px;
+}
+  
+.section button a:hover{
+  color: black;
+  background-color: white;
+  padding: none;
+}
+  
+.section button:hover{
+  padding: none;
+  color: black;
+  background-color: white;
+  border: 1px solid rgba(245, 110, 15, 1);
+}
+
+.sect{
+    display: flex;
+    flex-wrap: wrap;
+    text-align:justify;
+    justify-content:space-around;
+    margin-top: 50px;
+}
+
+.Sectionn h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.second-sectionns{
+    display: flex;
+    flex-wrap: wrap;
+    text-align:justify;
+    justify-content:space-around;
+    margin-top: 50px;
+}
+
+.second-sectionns h2{
+    font-size: 20px;
+}
+
+.second-sectionns .loves{
+    width: 30px;
+    margin-left: 70px;
+    background-color: rgba(234, 238, 239, 1);
+    border-radius: 20px;
+}
+
+.Sectionss{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Sectionss .styles{
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.Sectionss .link-styles{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.Sectionss a{
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(245, 110, 15, 1);
+}
+
+.Sectionss a:hover{
+    background-color: white;
+    border: 1px solid rgba(245, 110, 15, 1);
+}
+
+.Sectionss img{
+    margin-top: 50px;
+}
+
+.Sectionss h2{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footers{
+    margin-top: 50px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer h1{
+    margin-top: 10px;
+    font-family: Cabin Condensed;
+    font-size: 20px;
+}
+
+.footer .email{
+  margin-top: 20px;
+  margin-right: 8px;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(245, 110, 15, 1);
+  border-radius: 3px;
+  padding: 10px;
+  font-weight: bold;
+  width: 80%;
+}
+
+.footer .email a{
+    font-size: 15px;
+    color: rgba(245, 110, 15, 1);
+}
+
+.footer .sub{
+  margin-top: 20px;
+  margin-right: 8px;
+  background-color: transparent;
+  border: 1px solid rgba(245, 110, 15, 1);
+  border-radius: 3px;
+  padding: 10px;
+  font-weight: bold;
+  width: 50%;
+}
+
+.footer .sub a{
+    font-size: 20px;
+    color: rgba(245, 110, 15, 1);
+}
+.foots{
+    font-family:  Cabin Condensed;
+    padding-bottom: 70px;
+    text-align: justify;
+}
+
+.foots h1{
+    font-size: 23px;
+    font-family: Cabin Condensed;
+    padding-bottom: 20px;
+}
+
+.foots h4{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.footer button{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+@media(max-width: 736px){
+    body{
+      width: 100%;
+    }
+
+    .foots h1{
+        font-size: 15px;
+    }
+
+    .foots h4{
+        font-size: 10px;
+    }
+
+    .foots img{
+        width: 25px;
+    }
+
+    .heading h1{
+        font-size: 20px;
+    }
+
+    .section img{
+        width: 300px;
+    }
+
+    .section h1{
+        font-size: 13px;
+        padding-top: 0px;
+    }
+
+    .sections h1{
+        font-size: 25px;
+        padding-top: 0px;
+    }
+
+    .Sectionn h1{
+        font-size: 25px;
+    }
+
+    .Sectionss img{
+        width: 350px;
+    }
+
+    .Sectionss .link-styles{
+        font-size: 15px;
+    }
+
+    .sect h3{
+        font-size: 15px;
+    }
+
+    .navbar ul li{
+        font-size: 14px;
+    }
+
+    .navbar img{
+       height: 25px;
+       padding-left: 10px;
+    }
+}

@@ -23,7 +23,7 @@ export const HomePage = () => {
 <header>
   <nav className="navbar">
     <ul>
-      <li><Link to="/">Home</Link></li>
+      <li><Link to="/">HOME</Link></li>
       <li><a href="a">SHOP</a></li>
       <li><a href="a">COLLECTION</a></li>
       <li><a href="a">CONTACT US</a></li>
