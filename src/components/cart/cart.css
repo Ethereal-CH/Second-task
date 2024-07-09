@@ -45,6 +45,12 @@ body{
 .section button a{
   padding: 7px;
 }
+
+.second-sectionns .styless{
+    height: 258px;
+    border-radius: 9px;;
+    width: 300px;
+}
   
 .section button a:hover{
   color: black;

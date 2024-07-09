@@ -9,7 +9,7 @@ import brace from "../../images/Rectangle 38.png";
 import watches from "../../images/Rectangle 39.png";
 import bangles from "../../images/Rectangle 40.png";
 import pin from "../../images/Rectangle 41.png";
-import galaxy from "../../images/Rectangle 42.png";
+import galaxy from "../../images/Rectangle 220.png";
 import cubana from "../../images/Rectangle 46.png";
 import love from "../../images/outlined.png";
 import facebook from "../../images/facebook.png";
@@ -97,7 +97,7 @@ export const CartPage = () => {
           </div>
 
           <div className="second-sectionn">
-            <img src={galaxy} alt="image"/>
+            <img src={galaxy} className="styless" alt="image"/>
             <h2>GALAXY <img src={love} className="loves"></img></h2>
             <h4>N1,000,000</h4>
           </div>
