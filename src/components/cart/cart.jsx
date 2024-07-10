@@ -52,7 +52,7 @@ export const CartPage = () => {
 
           <div className="gall">
             <div class="galaxy">
-             <h3>GALAXY EARRINGS <span></span> 1x</h3>
+             <h3>GALAXY EARRINGS <span>1x</span></h3>
              <h5>n950,000</h5>
             </div>
           </div>

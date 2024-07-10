@@ -19,9 +19,15 @@ header{
 .head{
     display:flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content:space-around;
     font-size: 15px;
     padding-top: 20px;
+}
+
+span{
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight:lighter;
 }
 
 .heading{
@@ -48,21 +54,21 @@ header{
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .ship{
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .total{
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
+    justify-content: space-evenly; 
     text-align: justify;
 }
 
@@ -152,4 +158,79 @@ label{
     border: 1px solid rgba(245, 110, 15, 1);
 }
 
+@media(max-width: 736px){
+    body{
+    float: none;
+    width: 100%
+    }
 
+    .sections input{
+        width: 80%;
+    }
+
+    .checks button{
+        width: 80%;
+    }
+
+    label{
+        font-size: 13px;
+    }
+
+    .galaxy{
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .galaxy h3{
+        font-size: 15px;
+    }
+
+    .galaxy h5{
+        font-size: 12px;
+    }
+
+    .ship{
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .head{
+        font-size: 14px;
+    }
+
+    .ship h4{
+        font-size: 13px;
+    }
+
+    .total{
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .total h4{
+        font-size: 12px;
+    }
+
+    .total h5{
+        font-size: 11px;;
+    }
+
+    .sections h1{
+        font-size: 20px;
+    }
+
+    .sections h2{
+        font-size: 16px;
+    }
+
+    .sections h3{
+        font-size: 15px;
+    }
+
+    .sections h4{
+        font-size: 13px;
+    }
+}
