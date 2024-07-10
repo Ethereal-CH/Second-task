@@ -1,271 +1,158 @@
 *{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  color:black;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
 }
 
 body{
-  width:100%;
-  height: auto;
-  line-height: 1.4;
-  text-decoration: none;
-  color:black;
-  background-color: white;
+    width:100%;
+    height: auto;
+    line-height: 1.4;
+    background-color: white;
+    text-align: center;
+}
+
+header{
+    background-color: rgba(255, 235, 216, 1);
+}
+
+.head{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    font-size: 15px;
+    padding-top: 20px;
 }
 
 .heading{
-    text-align: center;
-    padding-top: 30px;
-    font-family: Cabin Condensed;
+    padding-top: 25px;
 }
 
-.section{
+.heading h2{
+    font-size:20px;
+}
+
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contents img{
+    text-align:justify;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.galaxy{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ship{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.total{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    text-align: justify;
+}
+
+.sections{
+    margin-top: 30px;
+    position: relative;
     text-align: center;
     justify-content: center;
-    padding-top: 30px;
 }
 
-.section h1{
-    font-size: 15px;
-    padding-top: 70px;
-}
-
-.section .shop{
-  margin-top: 20px;
-  margin-right: 8px;
-  background-color: rgba(245, 110, 15, 1);
-  border: none;
-  border-radius: 3px;
-  padding: 10px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.section button a{
-  padding: 7px;
-}
-
-.second-sectionns .styless{
-    height: 258px;
-    border-radius: 9px;;
-    width: 300px;
-}
-  
-.section button a:hover{
-  color: black;
-  background-color: white;
-  padding: none;
-}
-  
-.section button:hover{
-  padding: none;
-  color: black;
-  background-color: white;
-  border: 1px solid rgba(245, 110, 15, 1);
-}
-
-.sect{
-    display: flex;
-    flex-wrap: wrap;
-    text-align:justify;
-    justify-content:space-around;
-    margin-top: 50px;
-}
-
-.Sectionn h1{
-    text-align: center;
-    padding-top: 50px;
-}
-
-.second-sectionns{
-    display: flex;
-    flex-wrap: wrap;
-    text-align:justify;
-    justify-content:space-around;
-    margin-top: 50px;
-}
-
-.second-sectionns h2{
-    font-size: 20px;
-}
-
-.second-sectionns .loves{
-    width: 30px;
-    margin-left: 70px;
-    background-color: rgba(234, 238, 239, 1);
-    border-radius: 20px;
-}
-
-.Sectionss{
-    text-align: center;
-    padding-top: 50px;
-}
-
-.Sectionss .styles{
-    margin-top: 30px;
-    border-radius: 20px;
-}
-
-.Sectionss .link-styles{
-    padding: 10px;
-    border: 1px solid black;
-    text-align: center;
-    font-weight: bold;
+.sections h1{
     font-size: 25px;
+    margin-bottom:10px;
 }
 
-.Sectionss a{
-    color: black;
+.sections input{
+    width: 40%;
+    text-align: center;
+    justify-content: center;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgba(245, 110, 15, 1);
+    border: none;
+    margin-bottom: 20px;
+    border: 1px solid rgba(245, 110, 15, 1);
 }
 
-.Sectionss a:hover{
+.sections input:hover{
+    border: 2px solid rgb(57, 219, 240);
+}
+
+.sections h2{
+    margin-top: 20px;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.sections h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sections h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sections input[type]{
+    text-align: left;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.sections input[type="checkbox"]{
+    text-align: center;
+    background-color: black;
+    color: rgba(245, 110, 15, 1);
+}
+
+label{
+    margin-left: 10px;
+}
+
+.checks button{
+    margin-top: 50px;
+    padding: 15px;
+    margin-bottom: 50px;
+    width: 40%;
+    text-align: center;
+    justify-content:center;
+    background-color: rgba(245, 110, 15, 1);
+    border-radius: 20px;
+    border:none;
+}
+
+.checks button a{
+    font-size: 20px;
+    color: black;
+}
+
+.checks button a:hover{
+    color: black;
+    background-color: white;
+    padding: none;
+}
+    
+.checks button:hover{
+    padding: none;
+    color: black;
     background-color: white;
     border: 1px solid rgba(245, 110, 15, 1);
 }
 
-.Sectionss img{
-    margin-top: 50px;
-}
 
-.Sectionss h2{
-    padding-top: 30px;
-    margin-bottom: 30px;
-}
-
-.footers{
-    margin-top: 50px;
-}
-
-.footer{
-    text-align: center;
-}
-
-.footer h1{
-    margin-top: 10px;
-    font-family: Cabin Condensed;
-    font-size: 20px;
-}
-
-.footer .email{
-  margin-top: 20px;
-  margin-right: 8px;
-  background-color: transparent;
-  border-bottom: 1px solid rgba(245, 110, 15, 1);
-  border-radius: 3px;
-  padding: 10px;
-  font-weight: bold;
-  width: 80%;
-}
-
-.footer .email a{
-    font-size: 15px;
-    color: rgba(245, 110, 15, 1);
-}
-
-.footer .sub{
-  margin-top: 20px;
-  margin-right: 8px;
-  background-color: transparent;
-  border: 1px solid rgba(245, 110, 15, 1);
-  border-radius: 3px;
-  padding: 10px;
-  font-weight: bold;
-  width: 50%;
-}
-
-.footer .sub a{
-    font-size: 20px;
-    color: rgba(245, 110, 15, 1);
-}
-.foots{
-    font-family:  Cabin Condensed;
-    padding-bottom: 70px;
-    text-align: justify;
-}
-
-.foots h1{
-    font-size: 23px;
-    font-family: Cabin Condensed;
-    padding-bottom: 20px;
-}
-
-.foots h4{
-    font-size: 15px;
-    padding-bottom: 15px;
-}
-
-.footer button{
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 25px;
-    margin-top: 40px;
-    text-decoration: none;
-    background-color: transparent;
-    border: none;
-}
-
-@media(max-width: 736px){
-    body{
-      width: 100%;
-    }
-
-    .foots h1{
-        font-size: 15px;
-    }
-
-    .foots h4{
-        font-size: 10px;
-    }
-
-    .foots img{
-        width: 25px;
-    }
-
-    .heading h1{
-        font-size: 20px;
-    }
-
-    .section img{
-        width: 300px;
-    }
-
-    .section h1{
-        font-size: 13px;
-        padding-top: 0px;
-    }
-
-    .sections h1{
-        font-size: 25px;
-        padding-top: 0px;
-    }
-
-    .Sectionn h1{
-        font-size: 25px;
-    }
-
-    .Sectionss img{
-        width: 350px;
-    }
-
-    .Sectionss .link-styles{
-        font-size: 15px;
-    }
-
-    .sect h3{
-        font-size: 15px;
-    }
-
-    .navbar ul li{
-        font-size: 14px;
-    }
-
-    .navbar img{
-       height: 25px;
-       padding-left: 10px;
-    }
-}
