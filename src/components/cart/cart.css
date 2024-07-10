@@ -68,9 +68,6 @@ header{
 
 .sections{
     margin-top: 30px;
-    position: relative;
-    text-align: center;
-    justify-content: center;
 }
 
 .sections h1{
@@ -79,7 +76,7 @@ header{
 }
 
 .sections input{
-    width: 40%;
+    width: 60%;
     text-align: center;
     justify-content: center;
     padding: 10px;
@@ -129,7 +126,7 @@ label{
     margin-top: 50px;
     padding: 15px;
     margin-bottom: 50px;
-    width: 40%;
+    width: 60%;
     text-align: center;
     justify-content:center;
     background-color: rgba(245, 110, 15, 1);
